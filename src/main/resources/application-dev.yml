@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:./appdb1
+    password:
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
